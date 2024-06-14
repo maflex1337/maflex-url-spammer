@@ -25,9 +25,9 @@ def print01(text):
         time.sleep(0.015)
 
 clear()
-print01(Fore.RED + "Created by alihan200" + Fore.RESET + "\n")
+print01(Fore.RED + "Created by maflex" + Fore.RESET + "\n")
 time.sleep(1)
-print01(Fore.CYAN + "To buy please enter Discord : https://discord.gg/mobile" + Fore.RESET + "\n\n")
+print01(Fore.CYAN + "To buy please enter Discord : https://discord.gg/nefret" + Fore.RESET + "\n\n")
 time.sleep(5)
 
 clear()
@@ -117,7 +117,7 @@ def snipe(value):
                 elapsed_time = time.time() - start_time
                 speed = reqs / elapsed_time
 
-                ctypes.windll.kernel32.SetConsoleTitleW(f"Spammer Vanity  | Alihan Gokkaya || Tokens: [{num_symbols}] || Servers: [{num_servers}] || Attempts: [{reqs}] || Speed: {speed:.2f} requests/sec || Time Left: {get_cooldown(time.time() + json_response['retry_after'])}")
+                ctypes.windll.kernel32.SetConsoleTitleW(f"Spammer Vanity  | Maflex || Tokens: [{num_symbols}] || Servers: [{num_servers}] || Attempts: [{reqs}] || Speed: {speed:.2f} requests/sec || Time Left: {get_cooldown(time.time() + json_response['retry_after'])}")
 
     except Exception as e:
         pass
